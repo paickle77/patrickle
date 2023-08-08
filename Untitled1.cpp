@@ -5,7 +5,7 @@ int main(){
 	scanf("%d",&number);
 	if (number > 0 ){
 		printf("%d la so duong\n",number);
-	}else if (number < 0){
+	}if (number < 0){
 		printf("%d la so am\n",number);
 	} if(number == 0){
 		printf("%d la so khong am khong duong",number);		
