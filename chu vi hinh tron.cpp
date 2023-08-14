@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
 	float a,b;
-	printf("nhap so a\n");
+	printf("nhap mot so a:");
 	scanf("%f",&a);
-	printf("nhap so b\n");
+	printf("nhap mot so b:");
 	scanf("%f",&b);
 	float c;
 	c=a+b;
-	printf("c la tong cua a va b %.1f",c);
+	printf("tong cua a va b la:%.1f",c);
 	return 0;
-	
 }
+	
